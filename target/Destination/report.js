@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 12206990600,
+  "duration": 10738412800,
   "status": "passed"
 });
 formatter.background({
@@ -50,25 +50,25 @@ formatter.match({
   "location": "MyStepdefs.user_enters_valid_username_and_valid_password()"
 });
 formatter.result({
-  "duration": 2257666400,
+  "duration": 1322229000,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.user_click_on_login_button()"
 });
 formatter.result({
-  "duration": 2949724000,
+  "duration": 2262718600,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.userHasLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 4531876500,
+  "duration": 2113238000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 2329700,
+  "duration": 204100,
   "status": "passed"
 });
 });

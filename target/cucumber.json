@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "user is on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13180577300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should login successfully with valid credentials",
+        "description": "",
+        "id": "login-panel;user-should-login-successfully-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 299500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1358800900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters valid username and valid password",
+            "match": {
+              "location": "MyStepdefs.user_enters_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4120545900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on login button",
+            "match": {
+              "location": "MyStepdefs.user_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3082860000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has login successfully",
+            "match": {
+              "location": "MyStepdefs.userHasLoginSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Login panel",
+    "description": "",
+    "id": "login-panel",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/login.feature"
+  }
+]

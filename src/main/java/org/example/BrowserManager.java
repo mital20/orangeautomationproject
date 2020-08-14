@@ -18,9 +18,9 @@ public class BrowserManager extends Util
     public static final String USERNAME = loadProp.getProperty("SAUCE_USERNAME");
     public static final String ACCESS_KEY = loadProp.getProperty("SAUCE_ACCESS_KEY");
     public static final String URL = " https://"+ USERNAME + ":" + ACCESS_KEY + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
-    //public static final boolean SAUCE_LAB = Boolean.parseBoolean(System.getProperty("sauce"));
-    public static final boolean SAUCE_LAB = true;
-    public static String browserName = loadProp.getProperty("browser");
+    public static final boolean SAUCE_LAB = Boolean.parseBoolean(System.getProperty("sauce"));
+   // public static final boolean SAUCE_LAB =System.getfalse;
+    public static String browserName = System.getProperty("browser");
 
     public static String url = loadProp.getProperty("url");
     public static void setBrowser() {
